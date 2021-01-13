@@ -8,7 +8,7 @@ pipeline {
         }
         stage('ping') {
             steps {
-                ping cloudone.trendmicro.com
+                sh 'ping cloudone.trendmicro.com'
             }
         }
     }
