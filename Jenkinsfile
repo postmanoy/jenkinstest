@@ -12,6 +12,7 @@ pipeline {
             }
             steps {
                 echo "Hello, ${PERSON}, nice to meet you."
+                echo "test"
             }
         }
         stage('ping') {
