@@ -8,7 +8,7 @@ pipeline {
         }
         stage('ping') {
             steps {
-                sh 'ping cloudone.trendmicro.com'
+                sh 'nslookup cloudone.trendmicro.com'
             }
         }
     }
