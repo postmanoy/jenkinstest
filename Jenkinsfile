@@ -4,7 +4,7 @@ pipeline {
         stage('Example') {
             steps {
                 echo "Hello, nice to meet you."
-                echo 'test'
+                echo 'test1'
             }
         }
         stage('ping') {
